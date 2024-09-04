@@ -22,7 +22,6 @@
     <link rel="stylesheet" href="./assets/bootstrap/bootstrap.css">
     <link rel="stylesheet" href="./assets/style.css">
 
-    <!-- fallback sur les polices -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -35,11 +34,31 @@
       integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
       crossorigin="anonymous"
     ></script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Nina Carducci Photography",
+        "image": "https://catfrancois.github.io/P5-Open/assets/images/nina.jpg",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "123 Rue Exemple",
+          "addressLocality": "Paris",
+          "addressRegion": "Île-de-France",
+          "postalCode": "75000",
+          "addressCountry": "FR"
+        },
+        "telephone": "+33123456789",
+        "email": "contact@nina-carducci-photography.com",
+        "priceRange": "$$$",
+        "openingHours": "Mo-Fr 09:00-18:00",
+        "url": "https://catfrancois.github.io/P5-Open/#services"
+      }
+      </script>
     <script src="./assets/maugallery.js" defer></script>
     <script src="./assets/scripts.js" defer></script>
     <title>Nina Carducci</title>
   </head>
-<!-- Rich Snipet localisation du photographe -->
   <body>
     <header>
       <div class="top-header">
@@ -256,7 +275,6 @@
           <p>
             N’hésitez pas à m’écrire ! Je vous répondrais en moins de 24 heures
           </p>
-          <!-- aria sur form -->
           <form method="post">
             <label for="nom">Nom</label>
             <input type="text" name="nom" id="nom">
@@ -280,4 +298,3 @@
 
   </body>
 </html>
-<!-- TODO bug changer entre les photos dans la modale & les choix "tous" "etc" -->
